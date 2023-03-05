@@ -1,0 +1,19 @@
+@import '../../../../../common.styl'
+
+.row
+  min-height 64px
+  width calc(100% - 100px)
+
+  div
+    display flex
+    align-items center
+
+    div
+      width 80%
+
+    &:last-child div
+      width 100%
+
+.orderNumber
+  font-weight 500
+  color $primary-dark
